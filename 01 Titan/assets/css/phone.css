@@ -29,22 +29,16 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: stretch;
+        align-items: center;
         margin-top: 30px;
     }
     #title-container > h3{
         color: var(--c4);
-        font-size: 1rem;
+        font-size: 2rem;
         text-align: center;
-        margin-bottom: 60px;
-    }
-    #title-container>p {
-        max-width: 100%;
     }
 
     #action-button{
-        margin-top: 40px;
-        margin-bottom: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -52,5 +46,10 @@
     #action-button:hover{
         transform: scale(1.01);
     }
+
+    #mechanismeImg {
+        width: 70%;
+    }
+
 }
 /* End Handphone responsive */

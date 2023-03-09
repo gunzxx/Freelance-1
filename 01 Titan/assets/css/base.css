@@ -42,9 +42,26 @@
     color:var(--c4);
 }
 
+.bg1 {
+    background-color: var(--c1);
+}
+
+.bg2 {
+    background-color: var(--c2);
+}
+
+.bg3 {
+    background-color: var(--c3);
+}
+
+.bg4 {
+    background-color: var(--c4);
+}
+
 .w-50{
     width: 50%;
 }
 .mw-50{
     max-width: 50%;
 }
+
