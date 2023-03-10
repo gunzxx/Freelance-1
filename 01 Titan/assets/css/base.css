@@ -2,6 +2,7 @@
 *{
     font-family: 'Poppins', sans-serif !important;
     box-sizing: border-box !important;
+    transition: 0.3s ease;
 }
 :root {
     --c1: rgba(255, 255, 255, 1);
@@ -14,8 +15,8 @@
 }
 
 .card{
-    height: 100%;
-    cursor: pointer;
+    height:auto;
+    /* cursor: pointer; */
 }
 .card:hover {
     transform: scale(1.05);
