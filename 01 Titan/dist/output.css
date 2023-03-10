@@ -631,6 +631,10 @@ video {
   max-height: 70px;
 }
 
+.min-h-\[100vh\] {
+  min-height: 100vh;
+}
+
 .w-\[50\%\] {
   width: 50%;
 }
@@ -882,6 +886,15 @@ video {
   .sm\:justify-center {
     justify-content: center;
   }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-\[24px\] {
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -938,5 +951,9 @@ video {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-\[32px\] {
+    font-size: 32px;
   }
 }

@@ -21,7 +21,8 @@
         max-height: fit-content;
     }
     #sub-nav{
-        position: relative;
+        position: absolute;
+        top: -200px;
         width: 100%;
         margin-top: 10px;
     }
@@ -43,7 +44,7 @@
     }
 
     #jumbotron{
-        background: linear-gradient(var(--c32),var(--c3));
+        min-height: 90vh;
         background: radial-gradient(var(--c32),var(--c3));
         padding: 30px;
         display: flex;
@@ -61,7 +62,7 @@
     }
 
     #phone{
-        width: 200px;
+        width: 100px;
     }
 
     #title-container{
@@ -73,9 +74,10 @@
         margin-top: 30px;
     }
     #title-container > h3{
+        line-height: 1.5;
         color: var(--c1);
         text-shadow: 0 0 10px rgba(0,0,0,.25);
-        font-size: 2rem;
+        font-size: 24px;
         text-align: center;
     }
 
