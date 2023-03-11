@@ -1,16 +1,20 @@
 /* Handphone responsive */
 @media only screen and (max-width:398px) {
+    #navbar-cont{
+        position: relative;
+    }
     #toggle-container{
         position: absolute;
         top: 0;
         right: 0;
         left: 0;
         width: 100%;
-        height: 70px;
+        height: 90px;
         display: flex;
         justify-content: end;
         align-items: center;
         z-index: 2;
+        padding: 20px auto;
     }
 
     #navbar{
@@ -43,19 +47,19 @@
 
     #title-nav{
         width: 100%;
-        /* height: 70px; */
+        max-height: 90px;
         display: flex;
         justify-content: start;
         gap: 0;
-        padding: 10px 20px;
+        padding: 20px;
         background-color: #fff;
-        box-shadow: 0 4px 4px rgba(0,0,0,.25);
+        border-bottom: 1px solid rgba(0,0,0,.25);
     }
 
     #jumbotron{
         min-height: calc(100vh - 60px);
-        /* background: radial-gradient(var(--c3) 20%,var(--c1)); */
-        background-color: var(--c1);
+        background: linear-gradient(var(--c1),var(--c3) 90%);
+        background-color: var(--c3);
         padding: 30px;
         display: flex;
         flex-direction: column;
@@ -67,8 +71,12 @@
         display: none;
     }
     
-    #phone, #title-container, #action-button{
+    #promo, #phone, #title-container, #action-button{
         position: static;
+    }
+
+    #promo{
+        display: none;
     }
 
     #phone{
@@ -89,12 +97,14 @@
         text-shadow: 0 0 10px rgba(0,0,0,.25);
         font-size: 24px;
         text-align: center;
+        text-shadow: 0 0 10px var(--c4);
     }
 
     #action-button{
         display: flex;
         align-items: center;
         justify-content: center;
+        box-shadow: 0 0 10px rgba(0,0,0,.25);
     }
     #action-button:hover{
         transform: scale(1.05);
