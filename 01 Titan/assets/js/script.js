@@ -1,8 +1,3 @@
-const phoneSize = window.matchMedia("(max-width: 398px)");
-if(phoneSize.matches){
-    $("#mechanismeImg").attr('src','./assets/img/mechanisme-h.png') ;
-}
-
 let tutup = true;
 $('#toggle-nav').on('click',()=>{
     if(tutup==true){
