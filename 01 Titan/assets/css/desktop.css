@@ -47,6 +47,13 @@
     position: relative;
 }
 
+#jumbotron > h3{
+    color: var(--c1);
+    position: absolute;
+    left: 100px;
+    top: 35%;
+}
+
 #promo{
     position: absolute;
     right: 30px;
